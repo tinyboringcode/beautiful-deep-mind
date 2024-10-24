@@ -4,10 +4,16 @@ A neural network model whose goal is to discover how consciousness works and cre
 
 ## Tensor using
 
-`tensor = Tensor([[1, 2], [3, 4]]) # Tensor(shape=[2, 2], data=[[1, 2], [3, 4]], rank=2)`
+<code>
+tensor = Tensor([[1, 2], [3, 4]]) 
+# Tensor(shape=[2, 2], data=[[1, 2], [3, 4]], rank=2)
 
-`tensor.shape # [2,2]`
+tensor.shape 
+#[2,2]
 
-`tensor.data # [[1,2], [3,4]]`
+tensor.data 
+#[[1,2], [3,4]]
 
-`tensor.rank # 2`
+tensor.rank 
+#2
+</code>
